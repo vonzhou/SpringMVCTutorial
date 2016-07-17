@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.vonzhou.learning</groupId>
+    <artifactId>SpringMvcTutorial</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>${project.artifactId}</finalName>
+    </build>
+
+    <modules>
+        <!--Spring依赖注入入门-->
+        <module>chapter01</module>
+        <!--简单Servlet处理逻辑-->
+        <module>chapter02a</module>
+        <!--解耦,引入DispatcherServlet-->
+        <module>chapter02b</module>
+        <!--Validator的引入-->
+        <module>chapter02c</module>
+        <!--第一个Spring MVC应用-->
+        <module>chapter03a</module>
+        <!--使用view resolver-->
+        <module>chapter03b</module>
+        <!--使用RequestMapper和Controller注解-->
+        <module>chapter04a</module>
+        <!--使用Autowired和Service注解进行依赖注入-->
+        <module>chapter04b</module>
+        <!--使用Spring表单,数据绑定-->
+        <module>chapter05</module>
+        <!--Converter, Formatter使用-->
+        <module>chapter06a</module>
+        <!--Formatter专用于把String转为其他对象-->
+        <module>chapter06b</module>
+        <!--Spring的验证器使用-->
+        <module>chapter07a</module>
+        <!--JSR303 Validator-->
+        <module>chapter07b</module>
+        <!--使用JSTL标签库-->
+        <module>chapter09</module>
+        <!--国际化-->
+        <module>chapter10</module>
+        <!--使用commons-fileupload文件上传-->
+        <module>chapter11a</module>
+        <!--使用Servlet 3上传文件-->
+        <module>chapter11b</module>
+        <!--下载文件-->
+        <module>chapter12</module>
+
+    </modules>
+
+</project>
